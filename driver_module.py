@@ -1,5 +1,7 @@
-from reports.report_executor import execute_all
+from preprocessing.preprocessor import Preprocessor
+
 
 if __name__ == "__main__":
 
-    execute_all()
+    obj = Preprocessor('walmart')
+    obj.execute()
